@@ -1,36 +1,40 @@
 <template>
-    <Layout>
-      <h1>Artikel</h1>
-      <p>Selamat Datang.</p>
-      <section class="section-card">
-        <div class="card card-1">
-            <img src="img/red.jpg" alt="Red shoes" class="card__img"> 
-        </div>
-        <div class="card__details">
-            <ul> ini adalah artikel yang menceritakan sepatu berwarna hijau</ul>
-        </div>
-             <a href="#" class="btn">Book now</a>
-        <div class="card card-2">
-            <img src="img/yellow.jpg" alt="Yellow shoes" class="card__img"> 
-                <ul> ini adalah artikel yang menceritakan sepatu berwarna hijau</ul>
-            </div>
-            <a href="#" class="btn">Book now</a>
-        <div class="card card-3">
-            <img src="img/green.jpg" alt="Green shoes" class="card__img"> 
-                <ul> ini adalah artikel yang menceritakan sepatu berwarna hijau</ul>
-            </div>
-            <a href="#" class="btn">Book now</a>
-      </section>
-  </Layout>
-  </template>
+  <Layout>
+    <h1>Artikel</h1>
+    <section class="section-card">
+      <div class="card card-1">
+        <g-image src="../gambar/red.jpg" alt="red shoes" class="card__img" width="500"/>
+      <div class="card__details">
+           <ul>Sepatu Merah. </ul>
+      </div>
+      <a href="#" class="btn">Book now</a>
+      </div>
 
-    
-</div>
-  <script>
-  export default {
-    metaInfo: {
-      title: 'Artikel'
-    }
-  }
-  </script>
+      <div class="card card-2">
+        <!-- <g-image src="../gambar/yellow.png" alt="yellow shoes" class="card__img" width="500"/>
+              <ul> ini adalah artikel yang menceritakan sepatu berwarna kuning</ul>
+          </div>
+          <a href="#" class="btn">Book now</a> -->
+      </div>
+
+      <div class="card card-3">
+        <!-- <g-image src="../gambar/green.png" alt="yellow shoes" class="card__img" width="500"/>
+              <ul> ini adalah artikel yang menceritakan sepatu berwarna hijau</ul>
+          </div>
+          <a href="#" class="btn">Book now</a> -->
+      
+        </div>
+    </section>
+</Layout>
+</template>
+
   
+</div>
+<script>
+export default {
+  metaInfo: {
+    title: 'Artikel'
+  }
+}
+</script>
+
