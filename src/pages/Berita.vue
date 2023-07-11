@@ -1,88 +1,41 @@
 <template>
     <Layout>
         <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device=width, initial-scale=1.0">
-            <title> The News </title>
-            <link rel="stylesheet" href="style.css">
-            <link rel="stylesheet" href="">`
-        </head>
-        
-        <!-- <body>
-            <div class="fCcontainer">
-                <nav class="wrapper">
-                    <div class="brand"></div>
-                        <div class="firstname">Bilkis</div>
-                        <div class="lastname">Nisa</div>
-                        <ul class="navigation">
-                        <li><a>Health</a></li>
-                        <li><a>Religion</a></li>
-                        <li><a>Technology</a></li>
-                        <li><a>Business</a></li>
-                        <li><a>Politics</a></li>
-                        <li><a>Features</a></li>
-                        <li><a>Features</a></li>
-                        <li><a>Interviews</a></li>
-                    </ul>
-                </nav>
+            <!-- <link rel="stylesheet" href="style.css"> -->
+        </head>   
+           <div class="container2">
+            <div class="header2">
+                <h1 class="judul2">Tujuan Wisata Indonesia yang Populer di Mata Dunia</h1>
             </div>
-</body> -->
-            <body>
-                <div class="container">
-                  <div class="logo-wrapper d-flex align-items-center">
-                    <header>
-                         <h1>The News</h1>
-                    </header>
-                  </div>
-                  <div class="container-fluid menu">
-                    <div class="container">
-                        <div class="d-flex menu-items">
-                            <div class="active">
-                                <a href="">Home</a>
-                            </div>
-                            <div>
-                                <a href="">Health</a>
-                            </div>
-                            <div>   
-                                <a href="">Religion</a>
-                            </div>
-                            <div>
-                                 <a href="">Technology</a>
-                            </div>
-                            <div>
-                                 <a href="">Business</a>
-                            </div>
-                            <div>
-                            <a href="">Politics</a>
-                            </div>
-                            <div>
-                                <a href="">Features</a>
-                            </div>
-                            <div>
-                                <a href="">Interviews</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container main-news section">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-xs-12 col-lg-6">
-                            <!-- <g-image class="thumb mb-3" src="../gambar/1.jpg"> -->
-                                <h3>
-                                    <a class="font-large" href="">
-                                        Nepal and PNG to play ODI series in Oman
-                                    </a>
-                                </h3>
-                            <!-- </g-image> -->
-                        </div>
-                    </div>
-                </div>
-                  </div>
+            <div class="hero"></div>
+            <div class="content2">
+                <h2>Pura Besakih</h2>
+                <p class="publikasi"> <a href="#">Bilkis Nisa</a> Selasa, 11 juli 2023</p>
+                
 
-            </body>
-                        
-                            
-                          
+                <p>Pura Agung Besakih adalah pura terbesar dan termegah di Bali. 
+                    Pulau ini terletak di Desa Besakih, Kecamatan Rendang, 
+                    berada di lereng sebelah barat daya Gunung Agung, gunung tertinggi di Bali.</p>
+
+                <p>Pura Agung Besakih memiliki gaya arsitektur yang 
+                    mengagumkan khas Bali dan berada di ketinggian 915 kaki 
+                    di kaki Gunung Agung dengan memukau. Bangunan yang dibangun 
+                    sejak abad ke-10 Masehi ini menjadi pusat kegiatan spiritual 
+                    Hindu Dharma di Pulau Dewata.</p>
+
+                <p>Dengan segala fitur yang dimiliki Pura Besakih, 
+                    tidak aneh jika situs ini ditetapkan sebagai 
+                    Situs Warisan Budaya UNESCO sejak selamat dari 
+                    erupsi Gunung Agung pada tahun 1963.</p>
+
+                <p>Akses dari Kota Denpasar untuk mencapai tempat ini 
+                    berjarak sekitar 25 km ke arah utara dari Kota Semarapura, 
+                    Kabupaten Klungkung. Perjalanan menuju Pura Besakih melewati 
+                    panorama Bukit Jambul yang juga merupakan salah satu obyek dan 
+                    daya tarik wisata Kabupaten Karangasem.</p>
+            </div>
+            </div>                
+                       
     </Layout>
   </template>
   

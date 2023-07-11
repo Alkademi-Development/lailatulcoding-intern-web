@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="style.css">
     
       <header>
-        <h1>Artikel Terbaru</h1>
+        <h1>Tujuan Wisata Indonesia yang Populer di Mata Dunia</h1>
       </header>
     
     <div class=" container">
@@ -11,7 +11,10 @@
         <div class="artikel-1">
             <div class="card">
                 <article>
-                  <h1>Tujuan Wisata Indonesia yang Populer di Mata Dunia</h1>
+                  <h1>Pura Besakih</h1>
+        
+                      <a href="/berita">Pura Besakih</a>
+
                     <g-image src="../gambar/1.jpg" alt="gambar 1" class="card__img" width="500"/>
                       <div class="card__details"> </div>
                       <p>
@@ -27,7 +30,8 @@
         <div class="artikel-2">
             <div class="card">
                 <article>
-                  <h1>10 Tempat Wisata Unik di Indonesia</h1>
+                  <h1>Kepulauan Derawan</h1>
+                      <a href="/berita2">Kepulauan Derawan</a>
                       <g-image src="../gambar/2.jpg" alt="gambar 2" class="card__img" width="500"/>
                         <div class="card__details"> </div>
                           <p>
@@ -43,7 +47,8 @@
         <div class="artikel-3">
             <div class="card">
                 <article>
-                  <h1>10 Objek Wisata Bandung Favorit Wisatawan</h1>
+                  <h1>Taman Nasional Way Kambas</h1>
+                  <a href="/berita2">Taman Nasional Way Kambas</a>
                       <g-image src="../gambar/3.jpg" alt="gambar 3" class="card__img" width="500"/>
                         <div class="card__details"> </div>
                   <p>

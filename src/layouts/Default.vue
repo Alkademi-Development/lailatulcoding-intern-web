@@ -9,6 +9,8 @@
         <g-link class="nav__link" to="/about/">About</g-link>
         <g-link class="nav__link" to="/artikel/">Artikel</g-link>
         <g-link class="nav__link" to="/berita/">Berita</g-link>
+        <g-link class="nav__link" to="/berita2/">Berita2</g-link>
+        <g-link class="nav__link" to="/berita3/">Berita2</g-link>
         <g-link class="nav__link" to="/halaman/">Halaman</g-link>
       </nav>
     </header>
