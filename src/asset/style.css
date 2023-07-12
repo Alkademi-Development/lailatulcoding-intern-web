@@ -21,6 +21,8 @@ header{
   grid-gap: 20px;
 }
 
+
+
 /* resposnsive */
 
 @media (min-width: 30em){
@@ -43,7 +45,7 @@ header{
   display: flex;
   flex-direction: colomn;
   min-height: 100%;
-  posiyion: relative;
+  position: relative;
   top: 0;
   transition: all 0.1s ease-in;
 }
