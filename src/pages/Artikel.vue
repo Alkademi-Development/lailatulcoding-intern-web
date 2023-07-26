@@ -171,7 +171,7 @@ export default {
   data: function(){
     return {
       wisata: [
-        {
+        { 
           nama: "1.Pura Besakih",
           nama2: "2.Kepualauan Derawan",
           nama3: "3.Taman Nasional Way Kambas",
