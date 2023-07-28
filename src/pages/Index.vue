@@ -1,151 +1,144 @@
 <template>
-  <Layout>
-    <nav>
+  <layout>
+    <body>
+      <nav>
+        <div class="wrapper">
+          <div class="logo">
+            <img src="../gambar/logo.png" alt style="height: 32px" />
+          </div>
+
+          <div class="menu">
+            <ul>
+              <li><a href="#beranda">Beranda</a></li>
+              <li><a href="#lailatulcoding">Lailatulcoding</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div class="wrapper">
-        <div class="logo">
-          <img src="../gambar/logo.png" alt style="height: 32px" />
-        </div>
+        <!-- untuk home -->
+        <section id="home">
+          <div>
+            <!-- untuk lailatulcoding -->
+            <section id="beranda">
+              <div class="kolom">
+                <p class="deskripsi"></p>
+                <h2>Saatnya Developer Beramal!</h2>
+                <p>
+                  Jika kamu developer dan menguasai wordpress, ayo bergabung di
+                  Lailatul Coding 2023! Tahun ini kita akan terjun langsung
+                  ngementorin santri agar mereka bisa membuat website untuk
+                  masjid di daerah asalnya.
+                </p>
+                <p>
+                  <strong
+                    >LailatulCoding 2023 akan dilaksanakan pada tanggal 13-14
+                    April2023</strong
+                  >
+                </p>
+                <p>
+                  <strong
+                    >Pendaftaran dimulai dari 24 Maret - 12 April dan dibuka
+                    untukDeveloper, Santri & Project Owner</strong
+                  >
+                </p>
 
-        <div class="menu">
-          <ul>
-            <li><a href="#beranda">Beranda</a></li>
-            <li><a href="#lailatulcoding">Lailatulcoding</a></li>
-            <li><a href="#faq">FAQ</a></li>
-          </ul>
-        </div>
+                <div class="btn">
+                  <p>
+                    <a href="https://bit.ly/devlc2023" class="tbl-pink"
+                      >Daftar Volunteer</a
+                    >
+                    <a href="https://bit.ly/santrilc2023" class="tbl-green"
+                      >Daftar Santri</a
+                    >
+                  </p>
+                  <p>
+                    <a href="https://bit.ly/polc2023" class="tbl-blue"
+                      >Daftar Projek Owner</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <img src="https://lailatulcoding.com/_nuxt/img/caa8ff3.svg" />
+            </section>
+
+            <!-- untuk lailatulcoding -->
+            <section id="lailatulcoding">
+              <div class="kolom">
+                <p class="deskripsi">GABUNG SEKARANG</p>
+                <h2>
+                  Bersama Berbagi berkah dengan cara yang kreatif sejak 2014.
+                </h2>
+                <p>Lihat kegiatan kami tahun lalu.</p>
+              </div>
+            </section>
+
+            <section id="faq">
+              <div id="contact">
+                <h6>FAQ</h6>
+                <h1>Frequently Asked Question</h1>
+                <div class="wrapper">
+                  <div class="footer">
+                    <div class="footer-section">
+                      <h3>Q: Dimana program ini akan berlangsung?</h3>
+                      <p>
+                        Lailatul Coding 2023 akan diadakan secara Hybrid; Online
+                        dan Offline. Jadi kamu bisa mengikuti acara ini secara
+                        Online dari tempat masing-masing. Asal jangan ketiduran
+                        saja yaa ;
+                      </p>
+                    </div>
+                    <div class="footer-section">
+                      <h3>Q: Apa teknologi yang akan dipakai untuk pengembangan
+                        website?</h3>
+                      <p>
+                        Untuk pengembangan website Rumah Ibadah di Lailatul
+                        Coding ini, kita menggunakan Wordpress. Silahkan
+                        dipersiapkan atau diingat-ingat lagi sebelum hari-H ya
+                      </p>
+                    </div>
+                    <div class="footer-section">
+                      <h3>Q:Dimana lokasi pelaksanaan jika offline</h3>
+                      <p>Untuk penyelenggaraan Offline, kita mengadakan di dua tempat yakni 
+                      Bandung dan Tasikmalaya. Untuk masing-masing lokasi, silahkan dicatat:</p>
+                      <p><ul style='list-style: disc; margin-left: 1rem'>
+                           <li>Bandung: Jl Cisitu Indah VI no. 6, Kelurahan Dago, Kecamatan Coblong</li>
+                            <li>Tasikmalaya: Kampus STT Cipasung, Jl Raya Cisinga KM1, Cilampunghilir, Kecamatan Padakembang.</li>
+                             </ul></p>
+                    </div>
+                    <div class="footer-section">
+                      <h3>Q: Bagaimana kita dapat berpartisipasi?</h3>
+                      <p class="mb-0">
+                        <ol style='list-style: number; margin-left: 1rem'>
+                            <li>Volunteer: Peran kamu adalah pionir pengembang website-website rumah ibadah dalam satu malam!</li>
+                            <li>Santri Belajar: Kamu santri, kamu belajar sekaligus membuatkan website rumah ibadah dalam satu malam!</li>
+                            <li>Project Owner: Kamu memiliki informasi rumah ibadah, pesantren atau panti asuhan yang akan dibuatkan websitenya.</li>
+                            <li>Donatur: Masyarakat umum yang ingin berkontribusi memberikan sedikit sumbangsih dalam bentuk apapun untuk event Lailatul Coding</li>
+                        </ol></p>
+                    </div>
+
+                    <div class="footer-section">
+                      <h3>Q: Tempat apa saja yang bisa dibuakan websitenya? </h3>
+                      <p class="mb-0">Tahun ini, Lailatul Coding membuka kesempatan untuk Pesantren, Panti Asuhan, serta yang 
+                        tergolong kepada rumah ibadah seperti: Masjid, Gereja, Klenteng, Pura, dan Wihara.</p>
+                    </div>
+
+                    <div class="footer-section">
+                      <h3>Q: Bagaimana Jika Ingin Berdonasi? </h3>
+                      <p class="mb-0">Donasi dapat disalurkan melalui transfer ke <br>
+                            BNI 7770817151 <br>A.n Yayasan Alkademi Karya Bangsa</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
       </div>
-    </nav>
-    <div class="wrapper">
-      <!-- untuk beanda -->
-      <section id="beranda">
-        <div class="kolom">
-          <p class="deskripsi"></p>
-              <h2>Saatnya Developer Beramal!</h2>
-              <p>
-                Jika kamu developer dan menguasai wordpress, ayo bergabung di
-                Lailatul Coding 2023! Tahun ini kita akan terjun langsung
-                ngementorin santri agar mereka bisa membuat website untuk masjid
-                di daerah asalnya.
-              </p>
-              <p>
-                <strong
-                  >LailatulCoding 2023 akan dilaksanakan pada tanggal 13-14
-                  April2023</strong
-                >
-              </p>
-              <p>
-                <strong
-                  >Pendaftaran dimulai dari 24 Maret - 12 April dan dibuka
-                  untukDeveloper, Santri & Project Owner</strong
-                >
-              </p>
-              <div class="btn">
-                <p>
-                  <a href="https://bit.ly/devlc2023" class="tbl-pink"
-                    >Daftar Volunteer</a
-                  >
-                  <a href="https://bit.ly/santrilc2023" class="tbl-green"
-                    >Daftar Santri</a
-                  >
-                </p>
-                <p>
-                  <a href="https://bit.ly/polc2023" class="tbl-blue"
-                    >Daftar Projek Owner</a
-                  >
-                </p>
-              </div>
-          
-          
-
-          <!-- untuk lailatulcoding -->
-          <section id="lailatulcoding">
-            <div class="kolom">
-              <p class="deskripsi"></p>
-              <h2>Saatnya Developer Beramal!</h2>
-              <p>
-                Jika kamu developer dan menguasai wordpress, ayo bergabung di
-                Lailatul Coding 2023! Tahun ini kita akan terjun langsung
-                ngementorin santri agar mereka bisa membuat website untuk masjid
-                di daerah asalnya.
-              </p>
-              <p>
-                <strong
-                  >LailatulCoding 2023 akan dilaksanakan pada tanggal 13-14
-                  April2023</strong
-                >
-              </p>
-              <p>
-                <strong
-                  >Pendaftaran dimulai dari 24 Maret - 12 April dan dibuka
-                  untukDeveloper, Santri & Project Owner</strong
-                >
-              </p>
-
-              <div class="btn">
-                <p>
-                  <a href="https://bit.ly/devlc2023" class="tbl-pink"
-                    >Daftar Volunteer</a
-                  >
-                  <a href="https://bit.ly/santrilc2023" class="tbl-green"
-                    >Daftar Santri</a
-                  >
-                </p>
-                <p>
-                  <a href="https://bit.ly/polc2023" class="tbl-blue"
-                    >Daftar Projek Owner</a
-                  >
-                </p>
-              </div>
-            </div>
-            <img src="https://lailatulcoding.com/_nuxt/img/caa8ff3.svg" />
-          </section>
-
-          <section id="faq">
-            <div class="kolom">
-              <p class="deskripsi"></p>
-              <h2>Saatnya Developer Beramal!</h2>
-              <p>
-                Jika kamu developer dan menguasai wordpress, ayo bergabung di
-                Lailatul Coding 2023! Tahun ini kita akan terjun langsung
-                ngementorin santri agar mereka bisa membuat website untuk masjid
-                di daerah asalnya.
-              </p>
-              <p>
-                <strong
-                  >LailatulCoding 2023 akan dilaksanakan pada tanggal 13-14
-                  April2023</strong
-                >
-              </p>
-              <p>
-                <strong
-                  >Pendaftaran dimulai dari 24 Maret - 12 April dan dibuka
-                  untukDeveloper, Santri & Project Owner</strong
-                >
-              </p>
-
-              <div class="btn">
-                <p>
-                  <a href="https://bit.ly/devlc2023" class="tbl-pink"
-                    >Daftar Volunteer</a
-                  >
-                  <a href="https://bit.ly/santrilc2023" class="tbl-green"
-                    >Daftar Santri</a
-                  >
-                </p>
-                <p>
-                  <a href="https://bit.ly/polc2023" class="tbl-blue"
-                    >Daftar Projek Owner</a
-                  >
-                </p>
-              </div>
-            </div>
-            <img src="https://lailatulcoding.com/_nuxt/img/caa8ff3.svg" />
-          </section>
-
-        </div>
-      </section>
-    </div>
-  </Layout>
+    </body>
+  </layout>
 </template>
 
 
