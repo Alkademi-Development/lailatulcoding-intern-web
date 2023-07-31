@@ -1,5 +1,6 @@
 <template>
-  <layout>
+  <html>
+   <layout>
     <body>
       <nav>
         <div class="wrapper">
@@ -65,31 +66,42 @@
 
             <!-- untuk lailatulcoding -->
             <section id="lailatulcoding">
-              <div class="kolom">
-                <p class="deskripsi">GABUNG SEKARANG</p>
-                <h2>
-                  Bersama Berbagi berkah dengan cara yang kreatif sejak 2014.
-                </h2>
-                <p>Lihat kegiatan kami tahun lalu.</p>
+              <div class="tengah">
+                <div class="kolom">
+                  <p class="deskripsi">GABUNG SEKARANG</p>
+                  <h2>
+                    Bersama Berbagi berkah dengan cara yang kreatif sejak 2014.
+                  </h2>
+                  <p>Lihat kegiatan kami tahun lalu.</p>
+                  <p>
+                    <a
+                      href="https://www.youtube.com/watch?v=m6TLQlbQpao"
+                      class="tbl-pink"
+                      >Play</a
+                    >
+                  </p>
+                </div>
               </div>
             </section>
 
-            <section id="faq">
-              <div id="contact">
-                <h6>FAQ</h6>
-                <h1>Frequently Asked Question</h1>
-                <div class="wrapper">
-                  <div class="footer">
-                    <div class="footer-section">
-                      <h3>Q: Dimana program ini akan berlangsung?</h3>
-                      <p>
-                        Lailatul Coding 2023 akan diadakan secara Hybrid; Online
-                        dan Offline. Jadi kamu bisa mengikuti acara ini secara
-                        Online dari tempat masing-masing. Asal jangan ketiduran
-                        saja yaa ;
-                      </p>
-                    </div>
-                    <div class="footer-section">
+            <section>
+              <div id="faq">
+                <div class="tengah">
+                  <p><a href="" class="tbl-grey">FAQ</a> </p>
+                  <h2>Frequently Asked Question</h2>
+                </div>
+                <div class="tengah">
+                <div class="footer">
+                  <div class="footer-section">
+                    <h3>Q: Dimana program ini akan berlangsung?</h3>
+                    <p>
+                      Lailatul Coding 2023 akan diadakan secara Hybrid; Online
+                      dan Offline. Jadi kamu bisa mengikuti acara ini secara
+                      Online dari tempat masing-masing. Asal jangan ketiduran
+                      saja yaa
+                    </p>
+                  </div>
+                  <div class="footer-section">
                       <h3>Q: Apa teknologi yang akan dipakai untuk pengembangan
                         website?</h3>
                       <p>
@@ -102,11 +114,12 @@
                       <h3>Q:Dimana lokasi pelaksanaan jika offline</h3>
                       <p>Untuk penyelenggaraan Offline, kita mengadakan di dua tempat yakni 
                       Bandung dan Tasikmalaya. Untuk masing-masing lokasi, silahkan dicatat:</p>
-                      <p><ul style='list-style: disc; margin-left: 1rem'>
+                      <p><ul>
                            <li>Bandung: Jl Cisitu Indah VI no. 6, Kelurahan Dago, Kecamatan Coblong</li>
                             <li>Tasikmalaya: Kampus STT Cipasung, Jl Raya Cisinga KM1, Cilampunghilir, Kecamatan Padakembang.</li>
                              </ul></p>
                     </div>
+
                     <div class="footer-section">
                       <h3>Q: Bagaimana kita dapat berpartisipasi?</h3>
                       <p class="mb-0">
@@ -129,16 +142,81 @@
                       <p class="mb-0">Donasi dapat disalurkan melalui transfer ke <br>
                             BNI 7770817151 <br>A.n Yayasan Alkademi Karya Bangsa</p>
                     </div>
-
                   </div>
                 </div>
               </div>
             </section>
+
+            <section id="partners">
+            <!-- <div class="tengah"> -->
+                <div class="partner-list">
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/Alkademi.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/idcloudhost.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/brand-radya.svg"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/rumahamalsalman.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/sttcipasung.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/startupbandung.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/geekhunterlogo.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/tiarbah.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/feedlooplogo.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/logo-qw-light.webp"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/qiwii.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/nuo-jateng.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/indocisc.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/block-71.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/1000-startup.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://lailatulcoding.com/assets/template/images/potensee.png"/>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </section>
+ 
+    <section id="footer">
+    <div class="copyright">
+        <div class="text-center">
+          <div class="tengah">
+            <p class="text-muted mb-0">2023 © BilkisNisa.</p>
+            </div>
+        </div>
+    </div>
+  </section>
           </div>
         </section>
       </div>
     </body>
-  </layout>
+  </layout>   
+    </html>
 </template>
 
 
@@ -165,10 +243,11 @@ body {
 }
 
 .wrapper {
-  widht: 1100px;
+  width: 1500px;
   margin: auto;
   position: relative;
   background: #ffffff;
+  z-index: 100000;
 }
 
 .logo a {
@@ -189,7 +268,7 @@ nav {
   display: flex;
   line-height: 80px;
   position: sticky;
-  position: -webkit-sticky;
+  /* position: -webkit-sticky; */
   top: 0;
 }
 
@@ -285,6 +364,12 @@ a.tbl-green {
   cursor: pointer;
   font-weight: bold;
 }
+
+a.tbl-green:hover {
+  background: #4353ff;
+  text-decoration: none;
+}
+
 a.tbl-blue {
   background: #00c99c !important;
   border-color: #00c99c !important;
@@ -296,10 +381,76 @@ a.tbl-blue {
   font-weight: bold;
 }
 
+a.tbl-blue:hover {
+  background: #4353ff;
+  text-decoration: none;
+}
+
+a.tbl-grey {
+  background: #b5b6bb;
+  border-color: #b5b6bb;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #4353ff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 p {
   margin: 10px 0px 10px 0px;
   padding: 10px 0px 10px 0px;
   color: #767dac;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+#faq {
+  background: #dedede;
+  padding: 50px 0px 50px 0px;
+  width: 1500px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 50%;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: #767dac;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 50%;
+}
+.copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    position: middle;
 }
 </style>
 
