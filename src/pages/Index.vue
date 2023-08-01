@@ -1,6 +1,6 @@
 <template>
   <html>
-   <layout>
+   <!-- <layout> -->
     <body>
       <nav>
         <div class="wrapper">
@@ -17,11 +17,12 @@
           </div>
         </div>
       </nav>
+
+
       <div class="wrapper">
         <!-- untuk home -->
         <section id="home">
           <div>
-            <!-- untuk lailatulcoding -->
             <section id="beranda">
               <div class="kolom">
                 <p class="deskripsi"></p>
@@ -32,34 +33,15 @@
                   ngementorin santri agar mereka bisa membuat website untuk
                   masjid di daerah asalnya.
                 </p>
-                <p>
-                  <strong
-                    >LailatulCoding 2023 akan dilaksanakan pada tanggal 13-14
-                    April2023</strong
-                  >
+                <p><strong>LailatulCoding 2023 akan dilaksanakan pada tanggal 13-14 April2023</strong>
                 </p>
-                <p>
-                  <strong
-                    >Pendaftaran dimulai dari 24 Maret - 12 April dan dibuka
-                    untukDeveloper, Santri & Project Owner</strong
-                  >
+                <p><strong>Pendaftaran dimulai dari 24 Maret - 12 April dan dibuka untukDeveloper, Santri & Project Owner</strong>
                 </p>
-
-                <div class="btn">
-                  <p>
-                    <a href="https://bit.ly/devlc2023" class="tbl-pink"
-                      >Daftar Volunteer</a
-                    >
-                    <a href="https://bit.ly/santrilc2023" class="tbl-green"
-                      >Daftar Santri</a
-                    >
-                  </p>
-                  <p>
-                    <a href="https://bit.ly/polc2023" class="tbl-blue"
-                      >Daftar Projek Owner</a
-                    >
-                  </p>
-                </div>
+                <p> 
+                <a href="https://bit.ly/devlc2023" class="tbl-pink">Daftar Volunteer →<i class="mdi-arrow-right"></i> </a>
+                <a href="https://bit.ly/santrilc2023" class="tbl-blue">Daftar Santri →</a></p>
+                <p><a href="https://bit.ly/polc2023" class="tbl-blue">Daftar Projek Owner →</a></p>
+                
               </div>
               <img src="https://lailatulcoding.com/_nuxt/img/caa8ff3.svg" />
             </section>
@@ -75,10 +57,7 @@
                   <p>Lihat kegiatan kami tahun lalu.</p>
                   <p>
                     <a
-                      href="https://www.youtube.com/watch?v=m6TLQlbQpao"
-                      class="tbl-pink"
-                      >Play</a
-                    >
+                      href="https://www.youtube.com/watch?v=m6TLQlbQpao" class="tbl-pink">Play</a>
                   </p>
                 </div>
               </div>
@@ -148,74 +127,75 @@
             </section>
 
             <section id="partners">
-            <!-- <div class="tengah"> -->
-                <div class="partner-list">
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/Alkademi.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/idcloudhost.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/brand-radya.svg"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/rumahamalsalman.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/sttcipasung.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/startupbandung.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/geekhunterlogo.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/tiarbah.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/feedlooplogo.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/logo-qw-light.webp"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/qiwii.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/nuo-jateng.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/indocisc.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/block-71.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/1000-startup.png"/>
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://lailatulcoding.com/assets/template/images/potensee.png"/>
-                    </div>
-                <!-- </div> -->
-            </div>
-        </section>
+        <!-- <div class="tengah"> -->
+            <div class="partner-list">
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/Alkademi.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/idcloudhost.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/brand-radya.svg"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/rumahamalsalman.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/sttcipasung.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/startupbandung.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/geekhunterlogo.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/tiarbah.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/feedlooplogo.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/logo-qw-light.webp"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/qiwii.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/nuo-jateng.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/indocisc.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/block-71.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/1000-startup.png"/>
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://lailatulcoding.com/assets/template/images/potensee.png"/>
+                </div>
+            <!-- </div> -->
+        </div>
+    </section>
  
     <section id="footer">
-    <div class="copyright">
-        <div class="text-center">
-          <div class="tengah">
-            <p class="text-muted mb-0">2023 © BilkisNisa.</p>
+      <div class="tengah">
+        <div class="copyright">
+            <div class="text-center">
+                <p class="text-muted mb-0">2023 © BilkisNisa.</p>
+                </div>
             </div>
         </div>
-    </div>
-  </section>
+    </section>
+
           </div>
         </section>
       </div>
     </body>
-  </layout>   
+  <!-- </layout>    -->
     </html>
 </template>
 
@@ -268,7 +248,7 @@ nav {
   display: flex;
   line-height: 80px;
   position: sticky;
-  /* position: -webkit-sticky; */
+  position: -webkit-sticky;
   top: 0;
 }
 
@@ -277,10 +257,12 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  position: sticky;
 }
 
 nav ul li {
   float: left;
+  position: sticky;
 }
 
 nav ul li a {
@@ -289,6 +271,7 @@ nav ul li a {
   text-align: center;
   padding: 0px 16px 0px 16px;
   text-decoration: none;
+  position: sticky;
 }
 
 nav ul li a:hover {
@@ -330,72 +313,38 @@ h2 {
   line-height: 50px;
 }
 
-.btn {
-  font-size: 15px;
-  padding: 0.7rem 1.4rem;
-  transition: all 0.4s;
-  font-weight: 600;
-  margin: auto;
-}
 
 a.tbl-pink {
-  background: #4353ff;
-  border-color: #4353ff;
-  border-radius: 20px;
-  margin-top: 50px;
-  padding: 15px 20px 15px 20px;
-  color: #ffffff;
-  cursor: pointer;
-  font-weight: bold;
-}
+        background: #4353ff;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding: 15px 20px 15px 20px;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-weight: bold;
+        text-align: center;
+        margin-right: 10px;
+    }
 
-a.tbl-pink:hover {
-  background: #00c99c;
-  text-decoration: none;
-}
+    a.tbl-pink:hover {
+        background: #00b58c;
+        text-decoration: none;
+    }
 
-a.tbl-green {
-  background: #00c99c !important;
-  border-color: #00c99c !important;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding: 15px 20px 15px 20px;
-  color: #ffffff;
-  cursor: pointer;
-  font-weight: bold;
-}
+    a.tbl-blue {
+        background: #00b58c;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding: 15px 20px 15px 20px;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-weight: bold;
+    }
 
-a.tbl-green:hover {
-  background: #4353ff;
-  text-decoration: none;
-}
-
-a.tbl-blue {
-  background: #00c99c !important;
-  border-color: #00c99c !important;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding: 15px 20px 15px 20px;
-  color: #ffffff;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-a.tbl-blue:hover {
-  background: #4353ff;
-  text-decoration: none;
-}
-
-a.tbl-grey {
-  background: #b5b6bb;
-  border-color: #b5b6bb;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding: 15px 20px 15px 20px;
-  color: #4353ff;
-  cursor: pointer;
-  font-weight: bold;
-}
+    a.tbl-blue:hover{
+        background: #00b58c;
+        text-decoration: none;
+    }
 
 p {
   margin: 10px 0px 10px 0px;
