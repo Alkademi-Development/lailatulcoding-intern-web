@@ -4,7 +4,7 @@
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
-      <nav class="nav">
+      <!-- <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about/">About</g-link>
         <g-link class="nav__link" to="/artikel/">Artikel</g-link>
@@ -12,11 +12,24 @@
         <g-link class="nav__link" to="/berita2/">Berita2</g-link>
         <g-link class="nav__link" to="/berita3/">Berita3</g-link>
         <g-link class="nav__link" to="/halaman/">Halaman</g-link>
-      </nav>
+        <g-link class="nav__link" to="/navbar/">Navbar</g-link>
+
+      </nav> -->
+      <Navbar />
+      
     </header>
     <slot/>
   </div>
 </template>
+<script>
+
+import Navbar from '../components/Navbar.vue';
+export default {
+  components : {
+    Navbar
+  }
+}
+</script>
 
 <static-query>
 query {
