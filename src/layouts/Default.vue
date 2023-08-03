@@ -1,21 +1,22 @@
 <template>
-  <div class="layout">
-    <header class="header">
+  <div class="layout-lc">
+    <header class="header-lc">
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <a href="#beranda"><img src="../gambar/logo.png" style="height: 32px; width: 183px;" /></a>
       </strong>
-      <!-- <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-        <g-link class="nav__link" to="/artikel/">Artikel</g-link>
-        <g-link class="nav__link" to="/berita/">Berita</g-link>
+      <nav class="nav">
+        
+        <a class="nav__link" href="#beranda" >Beranda</a>
+        <a class="nav__link" href="#lailatulcoding">Lailatul Coding</a>
+        <!-- <g-link class="nav__link" to="/faq/">Faq</g-link> -->
+        <a class="nav__link" href="#faq">Faq</a>
+        <!-- <g-link class="nav__link" to="/berita/">Berita</g-link>
         <g-link class="nav__link" to="/berita2/">Berita2</g-link>
         <g-link class="nav__link" to="/berita3/">Berita3</g-link>
         <g-link class="nav__link" to="/halaman/">Halaman</g-link>
-        <g-link class="nav__link" to="/navbar/">Navbar</g-link>
+        <g-link class="nav__link" to="/navbar/">Navbar</g-link> -->
 
-      </nav> -->
-      <Navbar />
+      </nav>
       
     </header>
     <slot/>
@@ -23,10 +24,10 @@
 </template>
 <script>
 
-import Navbar from '../components/Navbar.vue';
+// import Navbar from '../components/Navbar.vue';
 export default {
   components : {
-    Navbar
+  
   }
 }
 </script>
@@ -40,29 +41,33 @@ query {
 </static-query>
 
 <style>
+
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   margin:0;
   padding:0;
   line-height: 1.5;
 }
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+.layout-lc {
+  margin-left: 105px;
+  margin-right:105px;
+
 }
 
-.header {
+.header-lc {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
+  padding: 22px 0;
+  /* background: yellow; */
 }
 
 .nav__link {
-  margin-left: 20px;
+  padding:25px 8px;
+  margin:0px 10px;
+  font-size:600 15px / 26px "Nunito Sans", sans-serif;
+  color:#767dac;
+  border:0px solid #e2e8f0;
 }
 </style>

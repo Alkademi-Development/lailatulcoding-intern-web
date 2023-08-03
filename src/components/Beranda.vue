@@ -1,9 +1,8 @@
 <template>
-  <div id="beranda">
-        <div class="kolom">
-            <p class="deskripsi"></p>
-            <img src="https://lailatulcoding.com/_nuxt/img/caa8ff3.svg" />
-                <h2>Saatnya Developer Beramal!</h2>
+  <div id="beranda" >
+        <div style="display: flex; margin-top: 54px; margin-bottom: 70px;">
+          <div>
+            <h2>Saatnya Developer Beramal!</h2>
             <p>
                 Jika kamu developer dan menguasai wordpress, ayo bergabung di
                 Lailatul Coding 2023! Tahun ini kita akan terjun langsung
@@ -12,15 +11,19 @@
             </p>
             <p><strong>LailatulCoding 2023 akan dilaksanakan pada tanggal 13-14 April2023</strong>
             </p>
-            <p><strong>Pendaftaran dimulai dari 24 Maret - 12 April dan dibuka untukDeveloper, Santri & Project Owner</strong>
+            <p><strong>Pendaftaran dimulai dari 24 Maret - 12 April dan dibuka untuk Developer, Santri & Project Owner</strong>
             </p>
             <p> 
             <a href="https://bit.ly/devlc2023" class="tbl-pink">Daftar Volunteer →<i class="mdi-arrow-right"></i> </a>
             <a href="https://bit.ly/santrilc2023" class="tbl-blue">Daftar Santri →</a></p>
             <p><a href="https://bit.ly/polc2023" class="tbl-blue">Daftar Projek Owner →</a></p>
+          </div>
+          <div>
+            <img src="https://lailatulcoding.com/_nuxt/img/caa8ff3.svg" style="padding-top: 78px;" />
+          </div>
         </div>
+        
 </div>
-
 </template>
 
 <script>
@@ -32,13 +35,15 @@ export default {
 <style>
  img {
   float: right;
-  width: 40%;
+  width: 540px;
+  height: 415px;
 }
 
-.kolom {
-  margin-top: 50px;
-  margin-bottom: 50px;
+#beranda .kolom-lc {
+  margin-left: 10px;
+  margin-right: 10px;
   float: left;
+  display: flex;
 }
 
 .kolom .deskripsi {
@@ -48,7 +53,7 @@ export default {
   color: #767dac;
 }
 
-h2 {
+#beranda .kolom-lc .h2 {
   font-family: "Nunito Sans,sans-serif";
   font-weight: 800;
   font-size: 45px;
@@ -71,12 +76,12 @@ a.tbl-pink {
         margin-right: 10px;
     }
 
-    a.tbl-pink:hover {
+a.tbl-pink:hover {
         background: #00b58c;
         text-decoration: none;
     }
 
-    a.tbl-blue {
+a.tbl-blue {
         background: #00b58c;
         border-radius: 5px;
         margin-top: 20px;

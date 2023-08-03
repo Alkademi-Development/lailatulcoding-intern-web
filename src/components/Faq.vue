@@ -1,11 +1,11 @@
 <template>
   <div id="faq">
-                <div class="tengah">
-                  <p><a href="" class="tbl-grey">FAQ</a> </p>
-                  <h2>Frequently Asked Question</h2>
-                </div>
-                <div class="tengah">
+                <!-- <div class="tengah"> -->
                 <div class="footer">
+                   <div class="tengah">
+                    <p><a href="" class="tbl-grey">FAQ</a> </p>
+                       <h2>Frequently Asked Question</h2>
+                        </div>
                   <div class="footer-section">
                     <h3>Q: Dimana program ini akan berlangsung?</h3>
                     <p>
@@ -15,6 +15,7 @@
                       saja yaa
                     </p>
                   </div>
+
                   <div class="footer-section">
                       <h3>Q: Apa teknologi yang akan dipakai untuk pengembangan
                         website?</h3>
@@ -58,7 +59,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              <!-- </div> -->
 </template>
 
 <script>
@@ -69,11 +70,26 @@ export default {
 
 <style>
 
+div {
+  display: block;
+}
 .faq {
   background: #dedede;
   padding: 50px 0px 50px 0px;
   width: 1500px;
 }
+
+a.tbl-grey {
+        background: #767dac;
+        border-radius: 20px;
+        margin-top: 20px;
+        padding: 15px 20px 15px 20px;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-weight: bold;
+        text-align: center;
+        margin-right: 10px;
+    }
 
 .footer {
   width: 100%;
@@ -81,13 +97,15 @@ export default {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  background: #d8d9e9;
 }
 
 .footer-section {
   width: 50%;
   margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 2;
+  margin-right: 2;
+  margin-bottom: 2;
   color: #767dac;
 }
 

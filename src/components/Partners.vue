@@ -1,68 +1,92 @@
 <template>
-  <layout>
-  <section id="partners">
+  <div id="partners">
         <!-- <div class="tengah"> -->
             <div class="partner-list">
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/Alkademi.png"/>
+                    <img src="../gambar/Alkademi.png"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/idcloudhost.png"/>
+                    <img src="../gambar/idcloudhost.png"/>
                 </div>
                 <div class="kartu-partner">
                     <img src="https://lailatulcoding.com/assets/template/images/brand-radya.svg"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/rumahamalsalman.png"/>
+                    <img src="../gambar/rumahamalsalman.png"/>"
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/sttcipasung.png"/>
+                    <img src="../gambar/sttcipasung.png"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/startupbandung.png"/>
+                    <img src="../gambar/startupbandung.png"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/geekhunterlogo.png"/>
+                    <img src="../gambar/geekhunterlogo.png"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/tiarbah.png"/>
+                    <img src="../gambar/tiarbah.png"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/feedlooplogo.png"/>
+                    <img src="../gambar/feedlooplogo.png"/>
                 </div>
                 <div class="kartu-partner">
                     <img src="https://lailatulcoding.com/assets/template/images/logo-qw-light.webp"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/qiwii.png"/>
+                    <img src="../gambar/qiwii.png"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/nuo-jateng.png"/>
+                    <img src="../gambar/nuo-jateng.png"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/indocisc.png"/>
+                    <img src="../gambar/indocisc.png"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/block-71.png"/>
+                    <img src="../gambar/block-71.png"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/1000-startup.png"/>
+                    <img src="../gambar/1000-startup.png"/>
                 </div>
                 <div class="kartu-partner">
-                    <img src="https://lailatulcoding.com/assets/template/images/potensee.png"/>
+                    <img src="../gambar/potensee.png"/>
                 </div>
             <!-- </div> -->
         </div>
-    </section>
-</layout>
+    </div>
 </template>
 
 <script>
 export default {
-
+    metaInfo: {
+    title: 'Partners',
+},
+data: function(){
+    return {
+      partner: [
+          
+        ]
+        }
+    }
 }
+    
+
+
 </script>
 
 <style>
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.kartu-partner {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 50%;
+}
 </style>

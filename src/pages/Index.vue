@@ -1,13 +1,20 @@
 <template>
   <layout>
-    <div class="wrapper">
-    <div>
-      <Beranda />
-      <Lailatulcoding />
-      <Faq />
-      <!-- <Partner /> -->
-    </div>
-  </div>
+  <!-- <div class="wrapper">
+    <div> -->
+      <div id="beranda"><Beranda /></div>
+      <div id="lailatulcoding"><Lailatulcoding /></div>
+      <div id="faq"><Faq /></div>
+      <div id="partners"><Partners /></div>
+      <div id="footer">
+        <div class="copyright" style="background: yellow; margin-top: 100px;">
+          <h6>2023 © BilkisNisa.</h6>
+        </div>
+      </div>
+    <!-- </div>
+
+    
+  </div> -->
   </layout>
 </template>
 
@@ -15,7 +22,7 @@
 import Beranda from '../components/Beranda.vue'
 import Lailatulcoding from '../components/Lailatulcoding.vue'
 import Faq from '../components/Faq.vue'
-// import Partner from '../components/Partner.vue'
+import Partners from '../components/Partners.vue'
 
 
 export default {
@@ -23,7 +30,7 @@ export default {
     Beranda,
     Lailatulcoding, 
     Faq,
-    // Partner
+    Partners
   } 
   
 }
@@ -31,41 +38,25 @@ export default {
 
 <style>
 
-* {
-  text-decoration: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-body {
+/* body {
   margin: 0px;
   padding: 0px;
   font-family: "Open Sans", sans serif;
-}
+} */
 
 .wrapper {
-  width: 1500px;
+  width: 100%;
   margin: auto;
   position: relative;
   background: #ffffff;
-  z-index: 100000;
 }
-
-.menu {
-  float: right;
+.copyright {
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    position: middle;
+    color: #767dac;
 }
-
-p {
-  margin: 10px 0px 10px 0px;
-  padding: 10px 0px 10px 0px;
-  color: #767dac;
-}
-
-.tengah {
-  text-align: center;
-  width: 100%;
-}
-
-
 
 </style>
