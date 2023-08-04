@@ -1,4 +1,5 @@
 <template>
+    
   <div id="partners">
         <!-- <div class="tengah"> -->
             <div class="partner-list">
@@ -74,19 +75,22 @@ data: function(){
 </script>
 
 <style>
+
 .partner-list {
-    width: 100%;
-    position: relative;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap : wrap;
+    gap : 10px;
+    margin-left: 105px;
+    margin-right:105px;
+
 }
 
-.kartu-partner {
-    width: 33%;
-    margin: 0 auto;
+.partner-list img {
+    width: 350px;
+    height : 180px;
+    object-fit : contain;
 }
 
-.kartu-partner img {
-    width: 50%;
-}
+
+
 </style>

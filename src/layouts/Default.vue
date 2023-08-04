@@ -4,9 +4,9 @@
       <strong>
         <a href="#beranda"><img src="../gambar/logo.png" style="height: 32px; width: 183px;" /></a>
       </strong>
-      <nav class="nav">
+      <nav id="nav">
         
-        <a class="nav__link" href="#beranda" >Beranda</a>
+        <a class="nav__link" href="#" >Beranda</a>
         <a class="nav__link" href="#lailatulcoding">Lailatul Coding</a>
         <!-- <g-link class="nav__link" to="/faq/">Faq</g-link> -->
         <a class="nav__link" href="#faq">Faq</a>
@@ -49,11 +49,6 @@ body {
   line-height: 1.5;
 }
 
-.layout-lc {
-  margin-left: 105px;
-  margin-right:105px;
-
-}
 
 .header-lc {
   display: flex;
@@ -61,6 +56,10 @@ body {
   align-items: center;
   padding: 22px 0;
   /* background: yellow; */
+  position : sticky;
+  top: 0;
+  margin-left: 105px;
+  margin-right:105px;
 }
 
 .nav__link {

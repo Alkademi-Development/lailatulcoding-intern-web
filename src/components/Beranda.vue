@@ -1,6 +1,6 @@
 <template>
-  <div id="beranda" >
-        <div style="display: flex; margin-top: 54px; margin-bottom: 70px;">
+  <div id="beranda">
+        <div class="hero">
           <div>
             <h2>Saatnya Developer Beramal!</h2>
             <p>
@@ -38,7 +38,17 @@ export default {
   width: 540px;
   height: 415px;
 }
-
+#beranda:target {
+  padding-top: 100px; /* Atur nilai sesuai jarak yang diinginkan */
+}
+#beranda .hero {
+  display: flex; 
+  margin-top: 54px; 
+  margin-bottom: 70px;
+  /* background: red; */
+  margin-left: 105px;
+  margin-right:105px;
+}
 #beranda .kolom-lc {
   margin-left: 10px;
   margin-right: 10px;

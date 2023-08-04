@@ -2,12 +2,12 @@
   <layout>
   <!-- <div class="wrapper">
     <div> -->
-      <div id="beranda"><Beranda /></div>
-      <div id="lailatulcoding"><Lailatulcoding /></div>
-      <div id="faq"><Faq /></div>
-      <div id="partners"><Partners /></div>
+      <div><Beranda /></div>
+      <div><Lailatulcoding /></div>
+      <div><Faq /></div>
+      <div><Partners /></div>
       <div id="footer">
-        <div class="copyright" style="background: yellow; margin-top: 100px;">
+        <div class="copyright" style=" margin-top: 100px;">
           <h6>2023 © BilkisNisa.</h6>
         </div>
       </div>

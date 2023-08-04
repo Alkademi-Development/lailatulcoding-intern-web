@@ -1,8 +1,8 @@
 <template>
   <div id="lailatulcoding">
       <div class="tengah">
-        <div class="kolom" style="margin-top: 100px; text-align: center;">
-          <p class="deskripsi">GABUNG SEKARANG</p>
+        <div class="kolom">
+          <p class="deskripsi-2">GABUNG SEKARANG</p>
           <h2>
             Bersama Berbagi berkah dengan cara yang kreatif sejak 2014.
           </h2>
@@ -23,6 +23,23 @@ export default {
 </script>
 
 <style>
+
+#lailatulcoding .kolom{
+  margin-top: 100px;
+  margin-bottom: 100px; 
+  text-align: center;
+}
+
+#lailatulcoding .deskripsi-2{
+  font-size : 700 14px / 19.6px;
+  margin : 0px 0px 8px;
+}
+
+#lailatulcoding .kolom h2{
+  font-size : 700 32px / 44.8px;
+  margin : 24px 0px 8px;
+}
+
 p {
   margin: 10px 0px 10px 0px;
   padding: 10px 0px 10px 0px;
