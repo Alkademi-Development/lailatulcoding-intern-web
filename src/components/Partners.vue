@@ -1,10 +1,27 @@
 <template>
     
-  <div id="partners">
-        <!-- <div class="tengah"> -->
+
+         <!-- <div class="partner-list"> 
+            <div class="kartu-partner">
+                <div v-for="partnerSaya in answer" v-bind:key="partnerSaya.id" class="artikel-1"> -->
+                  <!-- <div class="card"> -->
+                    <!-- <div v-for="wisataImage in wisata" v-bind:key="wisataImage" > 
+               </div> 
+                <g-image src="../gambar/5.jpg" alt="gambar 5" class="card__img" width="500"/> -->
+            <!-- </div> -->
+            <!-- </div>
+        </div>
+   </div> -->
+   
+
+
+   <div id="partners">
+        <div class="tengah">
             <div class="partner-list">
                 <div class="kartu-partner">
-                    <img src="../gambar/Alkademi.png"/>
+                    <div v-for="partnerImage in wisata" v-bind:key="partnerImage" > </div> 
+                        <img src="../gambar/Alkademi.png"/>
+                        <!-- <p>{{ wisataImage.img}}</p>  -->
                 </div>
                 <div class="kartu-partner">
                     <img src="../gambar/idcloudhost.png"/>
@@ -54,6 +71,7 @@
             <!-- </div> -->
         </div>
     </div>
+    </div>
 </template>
 
 <script>
@@ -64,7 +82,14 @@ export default {
 data: function(){
     return {
       partner: [
-          
+          {
+          img: '../gambar/feedlooplogo.png',
+          img2: '../gambar/idcloudhost.png',
+          img3: '../gambar/3.jpg',
+          img4: '../gambar/4.jpg',
+          img5: '../gambar/5.jpg',
+          img6: '../gambar/6.jpg',
+          }
         ]
         }
     }

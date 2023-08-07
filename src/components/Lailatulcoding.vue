@@ -1,6 +1,6 @@
 <template>
   <div id="lailatulcoding">
-      <div class="tengah">
+      <!-- <div class="tengah"> -->
         <div class="kolom">
           <p class="deskripsi-2">GABUNG SEKARANG</p>
           <h2>
@@ -13,7 +13,7 @@
           </p>
         </div>
       </div>
-   </div>
+   <!-- </div> -->
 </template>
 
 <script>

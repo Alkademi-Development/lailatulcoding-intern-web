@@ -55,7 +55,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 22px 0;
-  /* background: yellow; */
+  background: white;
   position : sticky;
   top: 0;
   margin-left: 105px;
