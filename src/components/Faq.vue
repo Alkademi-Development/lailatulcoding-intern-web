@@ -193,7 +193,7 @@ export default {
           jawaban2 : "Untuk pengembangan website Rumah Ibadah di Lailatul Coding ini, kita menggunakan Wordpress. Silahkan dipersiapkan atau diingat-ingat lagi sebelum hari-H ya",
           jawaban3 : "Untuk penyelenggaraan Offline, kita mengadakan di dua tempat yakni Bandung dan Tasikmalaya. Untuk masing-masing lokasi, silahkan dicatat:",
           jawaban5 : "Tahun ini, Lailatul Coding membuka kesempatan untuk Pesantren, Panti Asuhan, serta yang tergolong kepada rumah ibadah seperti: Masjid, Gereja, Klenteng, Pura, dan Wihara.",
-          jawaban6 : "Donasi dapat disalurkan melalui transfer ke <br> BNI 7770817151 <br>A.n Yayasan Alkademi Karya Bangsa"
+          jawaban6 : "Donasi dapat disalurkan melalui transfer ke BNI 7770817151 A.n Yayasan Alkademi Karya Bangsa"
         },
       ]
     }
