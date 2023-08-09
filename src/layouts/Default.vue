@@ -5,7 +5,6 @@
         <a href="#beranda"><img src="../gambar/logo.png" style="height: 32px; width: 183px;" /></a>
       </strong>
       <nav id="nav">
-        
         <a class="nav__link" href="#" >Beranda</a>
         <a class="nav__link" href="#lailatulcoding">Lailatul Coding</a>
         <!-- <g-link class="nav__link" to="/faq/">Faq</g-link> -->

@@ -3,16 +3,10 @@
         <div class="hero">
           <div>
             <h2>Saatnya Developer Beramal!</h2>
-            <p>
-                Jika kamu developer dan menguasai wordpress, ayo bergabung di
-                Lailatul Coding 2023! Tahun ini kita akan terjun langsung
-                ngementorin santri agar mereka bisa membuat website untuk
-                masjid di daerah asalnya.
-            </p>
-            <p><strong>LailatulCoding 2023 akan dilaksanakan pada tanggal 13-14 April2023</strong>
-            </p>
-            <p><strong>Pendaftaran dimulai dari 24 Maret - 12 April dan dibuka untuk Developer, Santri & Project Owner</strong>
-            </p>
+            <p>Jika kamu developer dan menguasai wordpress, ayo bergabung di Lailatul Coding 2023! Tahun ini kita akan terjun langsung
+                ngementorin santri agar mereka bisa membuat website untuk masjid di daerah asalnya.</p>
+            <p><strong>LailatulCoding 2023 akan dilaksanakan pada tanggal 13-14 April 2023</strong></p>
+            <p><strong>Pendaftaran dimulai dari 24 Maret - 12 April dan dibuka untuk Developer, Santri & Project Owner</strong></p>
             <p> 
             <a href="https://bit.ly/devlc2023" class="tbl-pink">Daftar Volunteer →<i class="mdi-arrow-right"></i> </a>
             <a href="https://bit.ly/santrilc2023" class="tbl-blue">Daftar Santri →</a></p>

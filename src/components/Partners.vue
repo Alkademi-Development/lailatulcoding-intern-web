@@ -16,7 +16,6 @@
 
 
 <div id="partners">
-   <div class="tengah">
        <div class="partner-list">
            <div class="kartu-partner">
                <div v-for="partnerImage in wisata" v-bind:key="partnerImage" > </div> 
@@ -70,7 +69,6 @@
            </div>
        <!-- </div> -->
    </div>
-</div>
 </div>
 </template>
 
