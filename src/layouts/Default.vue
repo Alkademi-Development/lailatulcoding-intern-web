@@ -62,11 +62,21 @@ body {
 }
 
 .nav__link {
-  padding:25px 8px;
-  margin:0px 10px;
+  list-style-type: none;
   font-size:600 15px / 26px "Nunito Sans", sans-serif;
-  color:#767dac;
-  border:0px solid #e2e8f0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  color: #767dac;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+.nav_link a:hover {
+    text-decoration: underline;
 }
 
 </style>
