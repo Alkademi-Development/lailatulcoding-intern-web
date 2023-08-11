@@ -1,20 +1,4 @@
 <template>
-    
-
-    <!-- <div class="partner-list"> 
-       <div class="kartu-partner">
-           <div v-for="partnerSaya in answer" v-bind:key="partnerSaya.id" class="artikel-1"> -->
-             <!-- <div class="card"> -->
-               <!-- <div v-for="wisataImage in wisata" v-bind:key="wisataImage" > 
-          </div> 
-           <g-image src="../gambar/5.jpg" alt="gambar 5" class="card__img" width="500"/> -->
-       <!-- </div> -->
-       <!-- </div>
-   </div>
-</div> -->
-
-
-
 <div id="partners">
        <div class="partner-list">
            <div class="kartu-partner">
