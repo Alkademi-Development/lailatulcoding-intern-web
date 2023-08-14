@@ -186,11 +186,14 @@ padding-right:105px;
 .footer-section h3 {
   margin : 8px 0px;
   font-size :700 20px / 28px;
+
 }
 
 .footer-section p {
-  padding : 16px;
+  /* padding : 16px; */
   font-size : 16px / 24px;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 .tengah {
