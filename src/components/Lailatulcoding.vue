@@ -50,4 +50,33 @@ p {
   text-align: center;
   width: 100%;
 } */
+
+ /* KODE CSS YANG TELAH DIBERIKAN RESPONSIVE DESIGN */
+.lailatulcoding {
+  background-color: #dedede;
+  padding: 50px 0;
+}
+
+#lailatulcoding .kolom {
+  margin: 50px auto;
+  text-align: center;
+}
+
+#lailatulcoding .deskripsi-2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+#lailatulcoding .kolom h2 {
+  font-size: 28px;
+  margin: 24px 0;
+}
+
+#lailatulcoding p {
+  margin: 10px 0;
+  padding: 10px 0;
+  color: #767dac;
+}
 </style>
+
+

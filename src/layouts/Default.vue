@@ -1,75 +1,54 @@
 <template>
-  
   <div class="layout-lc">
     <header class="header-lc">
-      <img src="../gambar/logo.png" style="height: 32px; width: 183px;" />
+      <strong>
+        <a href="#beranda"><img src="../gambar/logo.png" style="height: 32px; width: 183px;" /></a>
+      </strong>
 
-      <nav id="nav">
-        <!-- <input type="checkbox" id="check">
-        <label for="check">
-          <i class="fas fa-bars" id="btn"></i>
-          <i class="fas fa-times" id="cancel"></i>
-        </label> -->
-
-        <label for="check">
-          <i class="fas fa-bars" id="btn"></i>
-          <i class="fas fa-times" id="cancel"></i>
-        </label>
-
-        <nav>
-          <ul>
-          <li> <a class="nav__link" href="#" >Beranda</a> </li>
-          <li> <a class="nav__link" href="#lailatulcoding">Lailatul Coding</a> </li>
-          <li> <a class="nav__link" href="#faq">Faq</a> </li>
-        </ul>
-        </nav>
-       
-
-        <!-- <g-link class="nav__link" to="/faq/">Faq</g-link> -->
-        <!-- <g-link class="nav__link" to="/berita/">Berita</g-link>
-        <g-link class="nav__link" to="/berita2/">Berita2</g-link>
-        <g-link class="nav__link" to="/berita3/">Berita3</g-link>
-        <g-link class="nav__link" to="/halaman/">Halaman</g-link>
-        <g-link class="nav__link" to="/navbar/">Navbar</g-link> -->
-
-      </nav>
-      
-      <div class="menu-toggle">
-            <i class="fa fa-bars"></i>
+      <div class="menu-toggle" @click="toggleMenu">
+        <i class="fa fa-bars"></i>
       </div>
 
+      <nav id="nav" :class="{ 'nav-responsive': menuOpen }">
+        <a class="nav__link" href="#">Beranda</a>
+        <a class="nav__link" href="#lailatulcoding">Lailatul Coding</a>
+        <a class="nav__link" href="#faq">Faq</a>
+      </nav>
     </header>
+
+     <!-- navbar-->
+    <nav class="navbar">
+      <a class="navbar__link" href="#">Menu 1</a>
+      <a class="navbar__link" href="#">Menu 2</a>
+      <a class="navbar__link" href="#">Menu 3</a>
+    </nav>
+
     <slot/>
   </div>
 </template>
-<script >
 
-// import Navbar from '../components/Navbar.vue';
+<script>
 export default {
-  components : {
-  
-  }
-}
+  data() {
+    return {
+      menuOpen: false,
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.menuOpen = !this.menuOpen;
+    },
+  },
+};
 </script>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
-
 <style>
-
 body {
   font-family: 'Nunito Sans', sans-serif;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
-  text-decoration: none;
 }
-
 
 .header-lc {
   display: flex;
@@ -77,118 +56,69 @@ body {
   align-items: center;
   padding: 22px 0;
   background: white;
-  position : sticky;
+  position: sticky;
   top: 0;
-  margin-left: 105px;
-  margin-right:105px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu-toggle {
+  color: rgb(94, 94, 94);
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
 }
 
 .nav__link {
   list-style-type: none;
-  font-size:600 15px / 26px "Nunito Sans", sans-serif;
+  font-size: 15px;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  float: left;
   color: #767dac;
   font-weight: bold;
   text-align: center;
-  padding: 0px 16px 0px 16px;
+  padding: 10px 16px;
   text-decoration: none;
 }
 
-.nav_link a:hover,
-.nav_link a.active {
-    text-decoration: underline;
-    background-color: #aaaaaa;
-}
-
-
-nav{
-  height: 80px;
-  background: #ffff;
-}
-
-nav img{
-  width: 150px;
-  position : absolute;
-  top: 17px;
-  left: 12%;
-}
-
-nav ul{
-  float: right;
-  margin-right: 25px;
-}
-
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 15px;
-}
-
-nav ul li a{
-  position: relative;
-  color: white;
-  padding: 5px 0;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-nav ul li a:before{
+.nav-responsive {
   position: absolute;
-  content: '';
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  background: white;
-  transform: scale(0);
-  transform-origin: right;
-  transition: transform .4s linear;
+  width: 100%;
+  background: #333;
+  top: 70px;
+  left: -100%;
+  transition: 0.5s all;
+  display: block;
+  z-index: 1000;
 }
 
-nav ul li a:hover :before{
-  transform: scaleX(1);
-  transform-origin: left;
+.navbar {
+  background: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.menu-toggle {
-    color: rgb(94, 94, 94);
-    float: right;
-    line-height: 50px;
-    font-size: 24px;
-    cursor: pointer;
-    display: none;
+.navbar__link {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .header-lc {
-        padding: 0 20px;
-    }
-
-  .menu-toggle {
-      display: block;
+    padding: 10px 20px;
   }
 
-  .nav_link {
-    position: absolute;
-    width: 100%;
-    height: calc(100vh - 50px);
-    background: #333;
+  .menu-toggle {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .nav-responsive {
     top: 50px;
-    left: -100%;
-    transition: 0.5s all;
+  }
 }
-}
-
-label #btn,
-label #cancel{
-  color : white;
-  font-size: 30px;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-}
-
 </style>

@@ -13,7 +13,7 @@
               <a href="https://bit.ly/santrilc2023" class="tbl-blue" target="_blank"> Daftar Santri →</a></p>
               <p><a href="https://bit.ly/polc2023" class="tbl-blue" target="_blank"> Daftar Projek Owner →</a></p>
             </div>
-              <img src="https://lailatulcoding.com/_nuxt/img/caa8ff3.svg" style="padding-top: 78px;" />
+              <img src="https://lailatulcoding.com/_nuxt/img/caa8ff3.svg" style="padding-top: 78px; width: 100%; height: auto;" />
           </div>
    </div>
 </template>
@@ -97,6 +97,20 @@ a.tbl-blue:hover {
     
 }
 
+/* KODE CSS YANG DIBERIKAN RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  #beranda .container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
+  img {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+}
 
 </style>
