@@ -17,11 +17,7 @@
     </header>
 
      <!-- navbar-->
-    <nav class="navbar">
-      <a class="navbar__link" href="#">Menu 1</a>
-      <a class="navbar__link" href="#">Menu 2</a>
-      <a class="navbar__link" href="#">Menu 3</a>
-    </nav>
+  
 
     <slot/>
   </div>
