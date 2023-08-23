@@ -1,21 +1,24 @@
 <template>
-  <div id="beranda">
+  <container>
+    <div id="beranda">
         <div class="container">
           <div class="deskripsi-3">
               <h1>Saatnya Developer Beramal!</h1>
               <p>Jika kamu developer dan menguasai wordpress, ayo bergabung di Lailatul Coding 2023! Tahun ini kita akan terjun langsung
                   ngementorin santri agar mereka bisa membuat website untuk masjid di daerah asalnya.</p>
-              <p><strong>Lailatul Coding 2023 akan dilaksanakan pada tanggal 13-14 April 2023</strong></p>
+              <!-- <p><strong>Lailatul Coding 2023 akan dilaksanakan pada tanggal 13-14 April 2023</strong></p>
               <p><strong>Pendaftaran dimulai dari 24 Maret - 12 April dan dibuka untuk Developer, Santri & Project Owner</strong></p>
               
               <p> <i class="tbl-pink"></i> 
               <a href="https://bit.ly/devlc2023" class="tbl-pink" target="_blank>"> Daftar Volunteer → </a> 
               <a href="https://bit.ly/santrilc2023" class="tbl-blue" target="_blank"> Daftar Santri →</a></p>
-              <p><a href="https://bit.ly/polc2023" class="tbl-blue" target="_blank"> Daftar Projek Owner →</a></p>
+              <p><a href="https://bit.ly/polc2023" class="tbl-blue" target="_blank"> Daftar Projek Owner →</a></p> -->
             </div>
-              <img src="https://lailatulcoding.com/_nuxt/img/caa8ff3.svg" style="padding-top: 78px; width: 100%; height: auto;" />
+              <img src="https://lailatulcoding.com/_nuxt/img/caa8ff3.svg" style="padding-top: 78px; width: 500px; height: auto;" />
           </div>
    </div>
+  </container>
+  
 </template>
 
 <script>
@@ -107,7 +110,7 @@ a.tbl-blue:hover {
   }
 
   img {
-    width: 100%;
+    width: 200%;
     height: auto;
     padding-top: 20px;
   }

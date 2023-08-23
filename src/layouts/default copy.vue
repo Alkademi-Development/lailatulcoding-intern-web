@@ -10,14 +10,12 @@
       </div>
 
       <nav id="nav" :class="{ 'nav-responsive': menuOpen }">
-        <a class="nav__link" href="#">Beranda</a>
+        <a class="nav__link" href="#">Beranda2</a>
         <a class="nav__link" href="#lailatulcoding">Lailatul Coding</a>
         <a class="nav__link" href="#faq">Faq</a>
       </nav>
     </header>
 
-    <button class="nav-button" @click="toggleMenu">Menu</button>
-    
     <nav class="navbar" v-if="menuOpen">
       <a class="navbar__link" href="#">Beranda</a>
       <a class="navbar__link" href="#lailatulcoding">Lailatul Coding</a>
@@ -110,30 +108,9 @@ body {
   margin-right: 20px;
 }
 
-.nav-button {
-  display: none;
-  font-size: 16px;
-  background: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
-
 @media (max-width: 768px) {
   /* Existing styles for mobile view */
-
-  .menu-toggle {
-    display: block;
-    margin-right: 20px;
-  }
-
-  .nav-button {
-    display: block;
-    margin: 10px auto;
-  }
-
+  
   .navbar {
     display: flex;
     flex-direction: column;
@@ -150,8 +127,8 @@ body {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-    margin-right: 0;
-    margin-bottom: 10px;
+    margin-right: 0; /* Change margin-right to 0 */
+    margin-bottom: 10px; /* Add margin-bottom for spacing */
     padding: 10px 16px;
     text-align: center;
   }
