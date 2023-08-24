@@ -7,6 +7,7 @@
               <h2>Frequently Asked Question</h2>
           </div>
      
+          npx netlify-cms-proxy-server
 
           <div class="footer-section">
                 <div v-for="answerSaya in answer" v-bind:key="answerSaya.id" class="artikel-1">
