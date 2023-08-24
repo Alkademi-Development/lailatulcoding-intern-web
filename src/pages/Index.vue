@@ -1,5 +1,6 @@
 <template>
   <layout>
+
   <!-- <div class="wrapper">
     <div> -->
       <div><Beranda /></div>
