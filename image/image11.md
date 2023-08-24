@@ -1,0 +1,3 @@
+---
+image: /uploads/idcloudhost.png
+---

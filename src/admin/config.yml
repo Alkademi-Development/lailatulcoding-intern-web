@@ -1,4 +1,4 @@
-# local_backend: true
+local_backend: true
 
 backend:
   name: github
@@ -17,4 +17,10 @@ collections:
       - {label: "Question", name: "question", widget: "string"}
       - {label: "Answer", name: "answer", widget: "markdown"}
   
-   
+  - name: "image"
+    label: "image"
+    folder: "image"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Image", name: "image", widget: "image"}
