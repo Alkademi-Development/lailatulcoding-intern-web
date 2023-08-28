@@ -10,8 +10,15 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'posts/**/*.md',
-        typeName: 'Post',
+        path: 'faq/**/*.md',
+        typeName: 'Faq',
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'image/**/*.md',
+        typeName: 'Image',
       }
     },
     {

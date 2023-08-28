@@ -12,8 +12,12 @@
                 <div v-for="answerSaya in answer" v-bind:key="answerSaya.id" class="artikel-1">
                   <!-- <div class="card"> -->
                     <article> 
-                                <div v-for="answerDes in answer" v-bind:key="answerDes" > 
-                                    <h3>{{ answerDes.deskripsi}}</h3> 
+                        do
+                                <!-- <div v-for="answerDes in answer" v-bind:key="answerDes" > -->
+                                  <div v-for="edge in $static.allFaq.edges">
+                                    <div>{{ edge.node.question }}</div>
+                                    <div>{{ edge.node.answer }}</div>
+                                    <!-- <h3>{{ answerDes.deskripsi}}</h3>  -->
                                 </div>
                                 <div v-for="answerJwb in answer" v-bind:key="answerJwb" > 
                                     <p>{{ answerJwb.jawaban}}</p> 
@@ -147,7 +151,19 @@ export default {
   
 
 </script>
-
+<static-query>
+  query {
+  allFaq {
+    edges {
+      node {
+        id
+        question
+        answer
+      }
+    }
+  }
+}
+</static-query>
 <style>
 
 .faq {
