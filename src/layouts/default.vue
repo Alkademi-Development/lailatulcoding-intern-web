@@ -16,13 +16,13 @@
       </nav>
     </header>
 
-    <button class="nav-button" @click="toggleMenu">Menu</button>
+    <!-- <button class="nav-button" @click="toggleMenu">Menu</button> -->
     
-    <nav class="navbar" v-if="menuOpen">
+    <!-- <nav class="navbar" v-if="menuOpen">
       <a class="navbar__link" href="#">Beranda</a>
       <a class="navbar__link" href="#lailatulcoding">Lailatul Coding</a>
       <a class="navbar__link" href="#faq">Faq</a>
-    </nav>
+    </nav> -->
 
     <slot/>
   </div>
