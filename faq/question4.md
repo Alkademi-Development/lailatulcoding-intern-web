@@ -1,11 +1,11 @@
 ---
-question: Q:Dimana lokasi pelaksanaan jika offline
+question: Q:Dimana lokasi pelaksanaan jika offline ?
 answer: >-
-  <!--StartFragment-->
+  Untuk penyelenggaraan Offline, kita mengadakan di dua tempat yakni Bandung dan
+  Tasikmalaya. Untuk masing-masing lokasi, silahkan dicatat:
 
 
-  Untuk penyelenggaraan Offline, kita mengadakan di dua tempat yakni Bandung dan Tasikmalaya. Untuk masing-masing lokasi, silahkan dicatat:
+  * B﻿andung: Jl. Cisitu Indah VI no. 6, Kelurahana Dago, Kecamatan Coblong.
 
-
-  <!--EndFragment-->
+  * T﻿asikmalaya: Kampus STT Cipasung, Jl. Raya Cisinga KM1, Cilampunghulir, Kecamatan Padakembang.
 ---

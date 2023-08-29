@@ -4,117 +4,21 @@
       <div class="footer">
           <div class="tengah">
               <p><a href="" class="tbl-grey">FAQ</a> </p>
-              <h2>Frequently Asked Question</h2>
+              <h1>Frequently Asked Question</h1>
           </div>
      
 
           <div class="footer-section">
-                <div v-for="answerSaya in answer" v-bind:key="answerSaya.id" class="artikel-1">
-                  <!-- <div class="card"> -->
-                    <article> 
-                        do
-                                <!-- <div v-for="answerDes in answer" v-bind:key="answerDes" > -->
-                                  <div v-for="edge in $static.allFaq.edges">
-                                    <div>{{ edge.node.question }}</div>
-                                    <div>{{ edge.node.answer }}</div>
-                                    <!-- <h3>{{ answerDes.deskripsi}}</h3>  -->
-                                </div>
-                                <div v-for="answerJwb in answer" v-bind:key="answerJwb" > 
-                                    <p>{{ answerJwb.jawaban}}</p> 
-                                </div>
-                    </article>
-                 <!-- </div> -->
-                </div>
-            </div>  
-
-    <div class="footer-section">
-                  <div v-for="answerSaya in answer" v-bind:key="answerSaya.id" class="artikel-1">
-                  <!-- <div class="card"> -->
-                    <article> 
-                                <div v-for="answerDes in answer" v-bind:key="answerDes" > 
-                                    <h3>{{ answerDes.deskripsi2}}</h3> 
-                                </div>
-                                <div v-for="answerJwb in answer" v-bind:key="answerJwb" > 
-                                    <p>{{ answerJwb.jawaban2}}</p> 
-                                </div>
-                    </article>
-            <!-- </div> -->
+            <article>
+            <div v-for="edge in $static.allFaq.edges" :key="edge.id" class="article">
+                  <div class="question">{{ edge.node.question }}</div>
+                  <div class="answer">{{ edge.node.answer }}</div>
+            </div>
+          </article>
         </div>
-    </div>  
-
-    <div class="footer-section">
-                  <div v-for="answerSaya in answer" v-bind:key="answerSaya.id" class="artikel-1">
-                  <!-- <div class="card"> -->
-                    <article> 
-                                <div v-for="answerDes in answer" v-bind:key="answerDes" > 
-                                    <h3>{{ answerDes.deskripsi3}}</h3> 
-                                </div>
-                                <div v-for="answerJwb in answer" v-bind:key="answerJwb" > 
-                                    <p>{{ answerJwb.jawaban3}}
-                                      <ul>
-                                      <li>Bandung: Jl Cisitu Indah VI no. 6, Kelurahan Dago, Kecamatan Coblong</li>
-                                      <li>Tasikmalaya: Kampus STT Cipasung, Jl Raya Cisinga KM1, Cilampunghilir, Kecamatan Padakembang.</li>
-                                      </ul>
-                                    </p>    
-                                </div>
-                    </article>
-            <!-- </div> -->
-        </div>
-    </div>  
-
-    <div class="footer-section">
-                  <div v-for="answerSaya in answer" v-bind:key="answerSaya.id" class="artikel-1">
-                  <!-- <div class="card"> -->
-                    <article> 
-                                <div v-for="answerDes in answer" v-bind:key="answerDes" > 
-                                    <h3>{{ answerDes.deskripsi4}}</h3> 
-                                </div>
-                                <!-- <div v-for="answerJwb in answer" v-bind:key="answerJwb" >  -->
-                                  <p class="mb-0">
-                                     <ol style='list-style: number; margin-left: 1rem'>
-                                      <li>Volunteer: Peran kamu adalah pionir pengembang website-website rumah ibadah dalam satu malam!</li>
-                                      <li>Santri Belajar: Kamu santri, kamu belajar sekaligus membuatkan website rumah ibadah dalam satu malam!</li>
-                                      <li>Project Owner: Kamu memiliki informasi rumah ibadah, pesantren atau panti asuhan yang akan dibuatkan websitenya.</li>
-                                      <li>Donatur: Masyarakat umum yang ingin berkontribusi memberikan sedikit sumbangsih dalam bentuk apapun untuk event Lailatul Coding</li>
-                                  </ol></p>
-                    </article>
-            <!-- </div> -->
-        </div>
-    </div> 
-
-    <div class="footer-section">
-                  <div v-for="answerSaya in answer" v-bind:key="answerSaya.id" class="artikel-1">
-                  <!-- <div class="card"> -->
-                    <article> 
-                                <div v-for="answerDes in answer" v-bind:key="answerDes" > 
-                                    <h3>{{ answerDes.deskripsi5}}</h3> 
-                                </div>
-                                <div v-for="answerJwb in answer" v-bind:key="answerJwb" > 
-                                    <p>{{ answerJwb.jawaban5}}</p> 
-                                </div>
-                    </article>
-            <!-- </div> -->
-        </div>
-    </div>  
-
-    <div class="footer-section">
-                  <div v-for="answerSaya in answer" v-bind:key="answerSaya.id" class="artikel-1">
-                  <!-- <div class="card"> -->
-                    <article> 
-                                <div v-for="answerDes in answer" v-bind:key="answerDes" > 
-                                    <h3>{{ answerDes.deskripsi6}}</h3> 
-                                </div>
-                                <div v-for="answerJwb in answer" v-bind:key="answerJwb" > 
-                                    <p>{{ answerJwb.jawaban6}}</p> 
-                                </div>
-                    </article>
-            <!-- </div> -->
-        </div>
-    </div>  
-
+    </div>             
   </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -166,54 +70,86 @@ export default {
 </static-query>
 <style>
 
-.faq {
-  background: #dedede;
-  padding: 50px 0px 50px 0px;
-}
+#faq {
+    /* Gaya untuk kontainer utama FAQ */
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    }
 
-a.tbl-grey {
-  background: #767dac;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding: 15px 20px 15px 20px;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-weight: bold;
-  text-align: center;
-  margin-right: 10px;
-}
+    .judul {
+        /* Gaya untuk judul FAQ */
+        text-align: center;
+        margin-bottom: 20px;
+    }
 
-.footer {
-display: flex;
-flex-wrap: wrap;
-background: #d8d9e9;
-padding-left: 105px;
-padding-right:105px;
+    .footer {
+        /* Gaya untuk bagian footer FAQ */
+        text-align: center;
+        margin-top: 20px;
+    }
 
-}
+    .tengah {
+        /* Gaya untuk mengatur posisi elemen-elemen di tengah */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.footer-section {
-  width: 452px;
-  padding: 16px;
-  margin-left: 55px;
-  color: #767dac;
-}
+    .tbl-grey {
+        /* Gaya untuk tautan dengan latar belakang abu-abu */
+        background-color: #ccc;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #fff;
+    }
 
-.footer-section h3 {
-  margin : 8px 0px;
-  font-size :700 20px / 28px;
+    h1 {
+        /* Gaya untuk judul pertanyaan yang sering diajukan */
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
 
-}
+    .footer-section article{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
 
-.footer-section p {
-  /* padding : 16px; */
-  font-size : 16px / 24px;
-  margin: 10px 0px 10px 0px;
-  padding: 10px 0px 10px 0px;
-}
+    .article{
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      width: calc(50% - 50px);
+    }
 
-.tengah {
-    text-align: center;
-    width: 100%;
-}
+    .article-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* Gaya untuk pertanyaan dalam artikel */
+    .question {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    /* Gaya untuk jawaban dalam artikel */
+    .answer {
+        font-size: 16px;
+        margin-top: 10px; /* Menambah ruang di atas jawaban */
+        color: #767dac;
+        text-align: justify;
+    }
+
+ 
+ @media (max-width: 768px) {
+.article{
+      width: 100%;
+    }
+  }
 </style>

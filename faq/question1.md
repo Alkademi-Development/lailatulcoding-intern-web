@@ -1,11 +1,6 @@
 ---
-question: "Q: Apa teknologi yang akan dipakai untuk pengembangan website?"
-answer: >-
-  <!--StartFragment-->
-
-
-  Untuk pengembangan website Rumah Ibadah di Lailatul Coding ini, kita menggunakan Wordpress. Silahkan dipersiapkan atau diingat-ingat lagi sebelum hari-H ya
-
-
-  <!--EndFragment-->
+question: "Q: Dimana Program ini akan berlangsung?  "
+answer: Lailatul Coding 2023 akan diadakan secara Hybrid; Online dan Offline.
+  Jadi kamu bisa mengikuti acara ini secara Online dari tempat masing-masing.
+  Asal jangan ketiduran saja yaa
 ---
