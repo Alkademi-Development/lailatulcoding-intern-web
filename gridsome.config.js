@@ -14,13 +14,13 @@ module.exports = {
         typeName: 'Faq',
       }
     },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'image/**/*.md',
-        typeName: 'Image',
-      }
-    },
+    // {
+    //   use: '@gridsome/source-filesystem',
+    //   options: {
+    //     path: 'image/**/*.md',
+    //     typeName: 'Image',
+    //   }
+    // },
     {
       use: `gridsome-plugin-netlify-cms`,
       options: {
